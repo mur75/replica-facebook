@@ -1,0 +1,218 @@
+:root{
+    --tipografia-titulo-facebook: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-azul-facebook: #1877F2;
+    --color-verde-facebook: #36A420;
+    --color-gris-facebook: #f0f2f5;
+    --color-blanco:#fff;
+    --color-negro: #000;
+    --color-azul-facebook-hover:#166fe5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    }
+    
+.contenedor{
+    background-color: var(--color-gris-facebook);
+}
+
+.seccion-1{
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+.seccion-1 img{
+    height: 106px;
+}
+
+.seccion-1 h1{
+    font-family: var(--tipografia-titulo-facebook);
+    font-weight: 100;
+}
+
+
+.seccion-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inicio-sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-2 span{
+    font-weight: bold;
+    font-family: var(--tipografia-titulo-facebook);
+}
+
+.seccion-2 a{
+    font-family: var(--tipografia-titulo-facebook);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-azul-facebook);
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario input{
+    padding: 14px 16px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+::placeholder{
+    font-family: var(--tipografia-titulo-facebook);
+    font-size: 17px;
+    color:rgb(119, 119, 119);
+}    
+
+
+.contendor-form{
+    border: 0,5px solid;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    background-color: var(--color-blanco);
+    padding: 10px;
+    box-shadow: 2px 2px 12px #555;
+}
+
+.linea-form{
+    margin: 20px 16px;
+    border-bottom: 1px solid #000;
+    
+}
+
+.btn-inicio-de-sesion{
+    width: 400px;
+    height: 52px;
+    background-color: var(--color-azul-facebook);
+    color: var(--color-blanco);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    transition: all 200ms;
+    margin-bottom: 10px;
+}
+    
+
+.btn-inicio-de-sesion:hover{
+    background-color: var(--color-azul-facebook-hover);
+}
+
+.crear-cuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-crear-cuenta{
+    width: 189px;
+    height: 48px;
+    background-color: var(--color-verde-facebook);
+    color: var(--color-blanco);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    transition: all 200ms;
+    margin-top: 10px;
+}
+
+
+
+.lista-paises{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: var(--tipografia-titulo-facebook);
+    color: #555
+    }
+
+
+.lista-paises li{
+    margin: 10px;
+}
+
+.lista1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: 12px;
+    font-family: var(--tipografia-titulo-facebook);
+    color: #555
+    }
+
+.lista1 li{
+    margin: 5px;
+}
+
+.lista2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    font-size: 12px;
+    font-family: var(--tipografia-titulo-facebook);
+    color: #555
+    }
+
+.lista2 li{
+    margin: 5px;
+}
+
+.lista3{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    font-size: 12px;
+    font-family: var(--tipografia-titulo-facebook);
+    color: #555
+    }
+
+.lista3 li{
+    margin: 5px;
+}
+
+footer p{
+    font-family: var(--tipografia-titulo-facebook);
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 11px;
+    color: #555;
+}
+
+
+
+
